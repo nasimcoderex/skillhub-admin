@@ -17,7 +17,7 @@ export default function LoginPage({ onShowRegister }) {
     <div style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center', background: '#f1f5f9' }}>
       <div style={{ width: 400, background: '#fff', borderRadius: 16, padding: 40, boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
         <div style={{ textAlign: 'center', marginBottom: 32 }}>
-          <div style={{ fontSize: 28, fontWeight: 800, color: '#1e293b' }}>SkillHub</div>
+          <div style={{ fontSize: 28, fontWeight: 800, color: '#1e293b' }}>KajAche</div>
           <div style={{ fontSize: 13, color: '#64748b', marginTop: 4 }}>Admin Panel</div>
         </div>
 
@@ -34,7 +34,7 @@ export default function LoginPage({ onShowRegister }) {
               type="text"
               value={email_or_phone}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@skillhub.com"
+              placeholder="admin@kajache.com"
               style={{ width: '100%', padding: '10px 14px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none' }}
             />
           </div>
