@@ -61,7 +61,7 @@ export default function RegisterPage({ onShowLogin }) {
     <div style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center', background: '#f1f5f9' }}>
       <div style={{ width: 440, background: '#fff', borderRadius: 16, padding: 40, boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
-          <div style={{ fontSize: 28, fontWeight: 800, color: '#1e293b' }}>SkillHub</div>
+          <div style={{ fontSize: 28, fontWeight: 800, color: '#1e293b' }}>KajAche</div>
           <div style={{ fontSize: 13, color: '#64748b', marginTop: 4 }}>Create Admin Account</div>
         </div>
 
@@ -101,7 +101,7 @@ export default function RegisterPage({ onShowLogin }) {
               type="email"
               value={form.email}
               onChange={set('email')}
-              placeholder="admin@skillhub.com"
+              placeholder="admin@kajache.com"
               style={inputStyle}
             />
           </div>

@@ -30,7 +30,7 @@ export default function App() {
     return (
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', background: '#f1f5f9' }}>
         <div style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: 32, fontWeight: 800, color: '#2563eb', marginBottom: 12 }}>SkillHub Admin</div>
+          <div style={{ fontSize: 32, fontWeight: 800, color: '#2563eb', marginBottom: 12 }}>KajAche Admin</div>
           <div style={{ color: '#64748b' }}>Loading...</div>
         </div>
       </div>

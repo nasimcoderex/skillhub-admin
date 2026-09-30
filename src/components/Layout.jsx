@@ -44,7 +44,7 @@ export default function Layout({ children, page, onNavigate }) {
               </svg>
             </div>
             <div>
-              <div style={{ fontSize: 17, fontWeight: 800, color: '#fff', lineHeight: 1 }}>SkillHub</div>
+              <div style={{ fontSize: 17, fontWeight: 800, color: '#fff', lineHeight: 1 }}>KajAche</div>
               <div style={{ fontSize: 10, color: '#475569', fontWeight: 600, letterSpacing: '0.08em', marginTop: 2 }}>ADMIN PANEL</div>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function Layout({ children, page, onNavigate }) {
         {/* Top bar */}
         <div style={{ height: 60, background: '#fff', borderBottom: '1px solid #e2e8f0', display: 'flex', alignItems: 'center', padding: '0 28px', flexShrink: 0, boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: '#64748b', fontSize: 13 }}>
-            <span style={{ color: '#94a3b8' }}>SkillHub</span>
+            <span style={{ color: '#94a3b8' }}>KajAche</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" strokeWidth="2" strokeLinecap="round"><polyline points="9 18 15 12 9 6" /></svg>
             <span style={{ color: '#1e293b', fontWeight: 600, textTransform: 'capitalize' }}>{page}</span>
           </div>
